@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Landig Page Norton</title>
-    <meta name="description" content="Landing page de portfolio de Norton Berbert" />
+    <meta
+      name="description"
+      content="Landing page de portfolio de Norton Berbert"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -92,7 +95,7 @@
           <div class="about__content-main">
             <h2 class="about__content-title">Norton Berbert, 28</h2>
             <h4 class="about__content-subtitle">Foz do Iguaçu - PR</h4>
-            <br>
+            <br />
             <h3 class="about__content-subtitle">nortonberbert@gmail.com</h3>
             <hr class="about__content-hr" />
             <div class="about__content-details">
@@ -103,13 +106,18 @@
                 Tenho facilidade com HTML e JS, mas preciso muito melhorar
                 minhas habilidades com CSS. Quero aprender sobre React, Vuejs e
                 Angular. Conheço JavaScript e Bulma. Nunca trabalhei na área e
-                estou a procura da primeira oportunidade.<br>
-                Estou cursando análise e desenvolvimento de sistemas pela Cruzeiro do Sul.<br>
-                Procuro sempre estar ligado com o que está ocorrendo, nas novidades e lançamentos, principalmente na tecnologia.
-                Acredito que o trabalho em equipe é essencial e torna as atividades de qualquer time mais engajadas possibilitando grandes resultados.<br>
-                Quero fazer a diferença e contribuir para que mais e mais pessoas tenham acesso a uma ferramenta de qualidade, 
-                resultando em uma experiência incrível na plataforma,
-                faltando apenas uma oportunidade de mostrar tudo isso.
+                estou a procura da primeira oportunidade.<br />
+                Estou cursando análise e desenvolvimento de sistemas pela
+                Cruzeiro do Sul.<br />
+                Procuro sempre estar ligado com o que está ocorrendo, nas
+                novidades e lançamentos, principalmente na tecnologia. Acredito
+                que o trabalho em equipe é essencial e torna as atividades de
+                qualquer time mais engajadas possibilitando grandes
+                resultados.<br />
+                Quero fazer a diferença e contribuir para que mais e mais
+                pessoas tenham acesso a uma ferramenta de qualidade, resultando
+                em uma experiência incrível na plataforma, faltando apenas uma
+                oportunidade de mostrar tudo isso.
               </p>
             </div>
           </div>
@@ -137,40 +145,38 @@
     </section>
 
     <section id="galery" class="galery sec-pad">
-      
-        <h2 class="headerP header-sec header-sec__mb-bg">
-          <span class="header-sec__main">Galeria</span>
-        </h2>
-        <div class="grid1">
-          <div>
-            <img src="images/blogtec.jpg" />
-          </div>
-          <div >
-            <img src="images/anabella.jpg" />
-          </div>
-          <div>
-            <img src="images/unesfacu.jpg"/>
-          </div>
-          <div>
-            <img src="images/quiz.jpg" />
-          </div>
-          <div>
-            <img src="images/gorjetasapp.jpg" />
-          </div>
-          <div>
-            <img src="images/emporio.jpg" />
-          </div>
-          <div>
-            <img src="images/clima.jpg" />
-          </div>
-          <div>
-            <img src="images/paginaproduct.jpg" />
-          </div>
-          <div>
-            <img src="images/turismo.jpg" />
-          </div>
+      <h2 class="headerP header-sec header-sec__mb-bg">
+        <span class="header-sec__main">Galeria</span>
+      </h2>
+      <div class="grid1">
+        <div>
+          <img src="images/blogtec.jpg" />
         </div>
-
+        <div>
+          <img src="images/anabella.jpg" />
+        </div>
+        <div>
+          <img src="images/unesfacu.jpg" />
+        </div>
+        <div>
+          <img src="images/quiz.jpg" />
+        </div>
+        <div>
+          <img src="images/gorjetasapp.jpg" />
+        </div>
+        <div>
+          <img src="images/emporio.jpg" />
+        </div>
+        <div>
+          <img src="images/clima.jpg" />
+        </div>
+        <div>
+          <img src="images/paginaproduct.jpg" />
+        </div>
+        <div>
+          <img src="images/turismo.jpg" />
+        </div>
+      </div>
     </section>
 
     <section id="contato" class="contato sec-pad dynamicBg">
@@ -179,7 +185,12 @@
           <span class="header-sec__main header-sec__main--lt">Contato</span>
         </h2>
         <div class="contato__form-container">
-          <form action="#" class="contato__form">
+          <form
+            action="https://formsubmit.co/nortonberbert@gmail.com"
+            method="POST"
+            class="contato__form"
+          >
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
             <div class="contato__form-Campo">
               <label class="contato__form-label" for="name">Nome</label>
               <input
@@ -191,6 +202,18 @@
                 id="name"
               />
             </div>
+            <div class="contato__form-Campo">
+              <label class="contato__form-label" for="email">E-mail</label>
+              <input
+                required
+                placeholder="Digite seu email"
+                type="email"
+                class="contato__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <input type="hidden" name="_autoresponse" value="Obrigado por me contatar! Recebi sua mensagem e logo responderei! :)">
             <div class="contato__form-Campo">
               <label class="contato__form-label" for="message">Mensagem</label>
               <textarea

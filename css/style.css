@@ -500,6 +500,43 @@ img {
   border-radius: 5px;
   margin: 5rem auto 0 auto;
 }
+
+.showcase{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+.title{
+  width: 100%;
+  height: 100%;
+  background-color: #f0d797;
+  font-size: 80px;
+  color: #fff;
+  mix-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
+  background: #f0d797;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+.back:hover {
+  color: #4d4229;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgb(247, 6, 6);
+}
 @media only screen and (max-width: 37.5em) {
   .contato__form-container {
     padding: 3rem;
